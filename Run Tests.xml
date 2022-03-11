@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Bank Suite">
+	<test name="Test" preserve-order="true">
+		<classes>
+		    <class name="register.RegisterTests" />
+		    <class name="Logout.LogoutTests" />
+			<class name="login.FailedLogin" />
+			<class name="login.LoginTests" />
+			<class name="loan.LoanTests" />
+			<class name="Account.AccountOverviewTests" />
+			<class name="Bill.BillFailNameTests" />
+			<class name="Bill.BillFailVerifyTests" />
+			<class name="Bill.BillPassTests" />
+			<class name="transferfund.TransferFundTests" />
+			<class name="New_Account.OpenNewAccountTests" />
+			<class name="Update_Account.UPdateAccountTests" />
+			<class name="Customer_Care.ContactFailEmilTests" />
+			<class name="Customer_Care.ContactPassTests" />
+		</classes>
+	</test>
+</suite> 
+
